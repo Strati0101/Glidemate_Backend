@@ -1,0 +1,58 @@
+# GlideMate Backend Phase 3 Requirements
+# Real weather data integration + API endpoints
+
+# Core Framework
+fastapi
+uvicorn[standard]
+starlette
+pydantic
+pydantic-settings
+python-dotenv
+
+# Async & Task Queue
+celery[redis]
+redis
+httpx
+aiofiles
+
+# Database & ORM
+sqlalchemy
+alembic
+psycopg2-binary
+geoalchemy2
+
+# Meteorological & Scientific Data
+cfgrib>=0.9.10.0
+xarray
+metpy
+numpy
+scipy
+pandas
+dask[array]
+
+# Geospatial & Mapping
+shapely
+geopandas
+fiona
+rasterio
+pyproj
+mercantile
+
+# Visualization & Imaging
+pillow
+matplotlib
+cmocean
+
+# Web Scraping (for NOAA soundings)
+beautifulsoup4
+lxml
+
+# Config & Utilities
+click
+pyyaml
+python-json-logger
+
+# Testing
+pytest
+pytest-asyncio
+httpx  # Already included above
